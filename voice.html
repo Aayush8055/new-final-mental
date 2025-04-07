@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindEase AI - Voice Therapy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Mind<span>Ease</span> AI</div>
+                <a href="index.html" class="back-btn">← Back to Home</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="voice-page">
+        <div class="container">
+            <div class="voicebot-window">
+                <div class="voicebot-header">
+                    <i class="fas fa-microphone"></i> MindEase Voice Therapist
+                </div>
+                <div class="voicebot-messages" id="voice-messages">
+                    <div class="message bot-message">
+                        Hello! I'm your MindEase voice therapist. You can talk to me by pressing the microphone button.
+                    </div>
+                </div>
+                <div class="voicebot-controls">
+                    <button id="start-listening" class="voice-btn">
+                        <i class="fas fa-microphone"></i> Start Speaking
+                    </button>
+                    <div class="voice-status" id="voice-status">
+                        Ready to listen...
+                    </div>
+                </div>
+                <div class="voice-transcript" id="voice-transcript">
+            
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
